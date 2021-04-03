@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,13 +27,13 @@
         <div id='day2' style="color: #fff; margin-top: 3%; clear:both">
             <div style="color: #fff;"><h3>Day 2 : 21st Nov</h3></div>
             <div style="max-width: 600px;">
-            <iframe height="340" width="600px" src="https://www.youtube.com/embed/8MBsBcbK63A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div align="center" style="margin-top: 30px;display:block;" id='mixlr'>
+             <iframe id="fweb" height="340" width="600px" title="" src="https://www.youtube.com/embed/L-wQXHO-3xI"frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <div align="center" style="margin-top: 30px;display:block;" id='mixlr'>
                 <div id="audio-div" style="margin-bottom: 25px;">
 <!--                    <div id="lang-div-txt" style="margin-bottom: 8px;"> Listen to the live translation in the language of your choice </div>-->
 <!--                    <div id ="select-div">-->
-                        <a href="#" style="display: block;">Português (Portuguese)</a>
-                        <a href="#" style="display: block;">русский (Russian)</a>
+                        <a class="fweb_lang" href="#" data-id="https://www.youtube.com/embed/bvYmKbhq3QU" style="display: block;">Português (Portuguese)</a>
+                        <a  class="fweb_lang" href="#" data-id="https://www.youtube.com/embed/Myc_IMLiNq0" style="display: block;">русский (Russian)</a>
 <!--                    </div>-->
                 </div>
                 <div id="mixlrcustom-contentfortr-3">11</div>
@@ -65,3 +66,13 @@
 </section>
 </body>
 </html>
+<!--<script>-->
+<!--    jQuery(document).ready(function () {-->
+<!--       jQuery('.fweb_lang').click(function (e) {-->
+<!--           e.preventDefault();-->
+<!--          var utube_url = jQuery(this).attr('data-id');-->
+<!--         jQuery('#fweb').attr('src',utube_url);-->
+<!--       })-->
+<!--    });-->
+
+<!--</script>-->
